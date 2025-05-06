@@ -27,10 +27,13 @@ function updateCountdown() {
 
     if (timeLeft <= 0) {
         // Birthday has passed
-        countdownElement.innerHTML = `<h2>Happy Birthday! ${celebrantname}!! 🎂🌷🌹🌼💐
-         Every day with you is a gift  cos you make life so beautiful and worthy for me 
-         and the kids. You are everything I wished for in life. I feel so fulfilled knowing
-          you are gonna grow old with me. As we celebrate you today 🎉</h2>`; 
+        countdownElement.innerHTML = `<h2>Happy Birthday! ${celebrantname}!!! 🎂🌷🌹🌼💐
+         Every day with you is a gift cos you make life so beautiful and worthy for me.
+          You are everything I wished for in life. I feel so fulfilled knowing
+          you are gonna grow old with me. As we celebrate you today, may you experience grace,
+           love, upliftment, financial break-thru and in all....peace of mind. 
+           The kids and i are always grateful having you in our iives. 💖♥💞💑🎉</h2>`; 
+
          audio.play();
           // Trigger confetti effect
         confettiEffect();
