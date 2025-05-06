@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Birthday.css">
+    <title>Birthday Countdown</title>
+</head>
+<body>
+    <div class="countdown-container">
+        <h1>Birthday Countdown</h1>
+        <div id="confetti" class="container"></div>
+        <div class="input-container">
+            <input type="date" id="birthday-input">
+            <button id="start-countdown">Start Countdown</button>
+            <div id="name-container">
+              <p id="namelabel">Enter the name of the celebrant:</p>
+              <input type="text" id="name-input" placeholder="Enter name here">
+            </div>        
+        </div>
+        <div class="countdown" id="countdown">
+            <div class="countdown-item">
+                <span id="days">00</span>
+                <p>Days</p>
+            </div>
+            <div class="countdown-item">
+                <span id="hours">00</span>
+                <p>Hours</p>
+            </div>
+            <div class="countdown-item">
+                <span id="minutes">00</span>
+                <p>Minutes</p>
+            </div>
+            <div class="countdown-item">
+                <span id="seconds">00</span>
+                <p>Seconds</p>
+            </div><br><br>
+           
+    </div>
+
+    <div class="message-container" id="message-container">
+      <h2 id="displaymessage"></h2><br>
+     
+</div>
+<audio autoplay id ="audio" >
+    <source src="Birthday1.mp3" type="audio/wav">
+    <source src="Birthday1.mp3" type="audio/mpeg">
+</audio>
+<audio>
+    <source src="Birthday2.mp3" type="audio/ogg">
+</audio>
+<img id="wifyimage" src="wify.JPG" alt="wify">
+   
+    <script src="Birthday.js"></script>
+</body>
+</html>
