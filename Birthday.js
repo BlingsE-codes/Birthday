@@ -31,6 +31,7 @@ function updateCountdown() {
          Every day with you is a gift  cos you make life so beautiful and worthy for me 
          and the kids. You are everything I wished for in life. I feel so fulfilled knowing
           you are gonna grow old with me. As we celebrate you today 🎉</h2>`; 
+         audio.play();
           // Trigger confetti effect
         confettiEffect();
         return;
