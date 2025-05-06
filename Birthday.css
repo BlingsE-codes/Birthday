@@ -33,11 +33,13 @@ body {
   #wifyimage{
     margin-top: 0%;
     margin-bottom: 0%;
-    margin-left: 15%;
+    margin-left: 5%;
     inline-size: 335px;
     overflow:scroll;
     width: 210px;
     height: 210px;
+    padding-left: 30px;
+      
   }
   
   h1 {
